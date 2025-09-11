@@ -6,6 +6,7 @@
   "ownerNumber": "8801615298449",
   "botNumber": "Your Bot Number",
   "autoUpdate": true,
+  "timeZone": "Asia/Dhaka",
   "botUid": "",
   "PREFIX": "/",
   "admin": [
