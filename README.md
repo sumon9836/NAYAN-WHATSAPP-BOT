@@ -1,19 +1,12 @@
 # 🤖 Nayan Bot
 
-<div align="center"> 
-  <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Nayan Bot;Multi+Device+Whatsapp+Bot;Coded+By+Mohammad Nayan" alt="Typing SVG" />
-  </a> 
-</div> 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff3c00,100:00ffe7&height=250&section=header&text=NAYAN%20WHATSAPP%20BOT&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+</p>
 
-<div align="center"> 
-  <a href="https://youtu.be/maayqyNRVoU?si=V0o0wDq81uYf2KAk"> 
-    <img src="https://i.postimg.cc/mgFkCk39/IMG-20250105-WA0013.jpg" alt="Nayan Bot" height="300"> 
-  </a> 
-</div>
-<br>
-
-<p align="center"><img src="https://profile-counter.glitch.me/{NAYAN-WHATSAPP-BOT}/count.svg" alt="Nayan :: Visitor's Count" /></p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=500&lines=welcome+To+NAYAN-WHATSAPP-BOT;" />
+</p>
 
 
 ---
@@ -120,6 +113,7 @@ prefix: 'both' (prefix nonprefix both work)
     ```bash
     node index.js
     ```
+    
 ### Start the Pair Code Generator Server
 
 ## visit:
@@ -132,7 +126,7 @@ https://nayan-whatsapp-bot-paircode.onrender.com
 
 ---
 
-## 4️⃣ Generate Pair Code
+### Generate Pair Code
 
 1. Open your browser and visit:
 
@@ -145,7 +139,7 @@ https://nayan-whatsapp-bot-paircode.onrender.com
 3. Enter your WhatsApp number with country code, e.g.:
 
 ```text
-+88016152*****
+88016152*****
 ```
 
 4. Click **Generate Pair Code**.
