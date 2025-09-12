@@ -120,3 +120,53 @@ prefix: 'both' (prefix nonprefix both work)
     ```bash
     node index.js
     ```
+### Start the Pair Code Generator Server
+
+## visit:
+
+```
+https://nayan-whatsapp-bot-paircode.onrender.com
+```
+
+> The server provides **Pair Code** and **QR Code** login options.
+
+---
+
+## 4️⃣ Generate Pair Code
+
+1. Open your browser and visit:
+
+```
+https://nayan-whatsapp-bot-paircode.onrender.com
+```
+
+2. Ensure **Pair Code** mode is selected (toggle at top).
+
+3. Enter your WhatsApp number with country code, e.g.:
+
+```text
++88016152*****
+```
+
+4. Click **Generate Pair Code**.
+
+5. Copy the pair code safely.  
+⚠️ Do **not share this code** with anyone.
+
+---
+
+## 5️⃣ Save `creds.json`
+
+After pairing, the server will generate a `creds.json` file.
+
+1. Download `creds.json`.
+
+2. Place it in the **session folder** of your bot:
+
+```
+NAYAN-WHATSAPP-BOT/session/creds.json
+```
+
+> ⚠️ This file contains your WhatsApp credentials. Keep it safe!
+
+---
