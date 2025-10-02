@@ -68,7 +68,7 @@ module.exports = {
   },
 
   start: async ({ api, event }) => {
-    const rootPath = process.cwd(); // 🔥 full host root
+    const rootPath = process.cwd();
     const totalSize = getFolderSize(rootPath);
     const totalMB = (totalSize / (1024 * 1024)).toFixed(2);
 
