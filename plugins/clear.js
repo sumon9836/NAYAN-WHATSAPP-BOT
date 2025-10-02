@@ -1,7 +1,7 @@
 module.exports = {
     config: {
-      name: 'clear',
-      aliases: ['clean', 'cls'],
+      name: 'uns',
+      aliases: ['unsend', 'cls'],
       permission: 2,
       prefix: 'both',
       categorie: 'Utilities',
