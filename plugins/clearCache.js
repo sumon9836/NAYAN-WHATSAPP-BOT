@@ -52,13 +52,13 @@ function checkStorageAndClear() {
   }
 }
 
-
+// Run on load
 checkStorageAndClear();
 
 module.exports = {
   config: {
     name: "clean",
-    aliases: ["clearcache"],
+    aliases: ["clearcache", "free"],
     permission: 2,
     prefix: true,
     categorie: "System",
