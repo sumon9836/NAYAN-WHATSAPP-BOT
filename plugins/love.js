@@ -46,8 +46,10 @@ module.exports = {
             const url1 = await api.profilePictureUrl(event.senderId, 'image');
             const url2 = await api.profilePictureUrl(targetId, 'image');
 
+            const {data} = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/refs/heads/main/api.json`)
+
             
-            const apiURL = `http://46.247.108.59:6150/love${loveType}?url1=${encodeURIComponent(url1)}&url2=${encodeURIComponent(url2)}`;
+            const apiURL = `${data.api3}/love${loveType}?url1=${encodeURIComponent(url1)}&url2=${encodeURIComponent(url2)}`;
 
             
             const captions = [
