@@ -133,8 +133,10 @@ module.exports = {
 
         const effectUrl = this.urls[index];
 
+        const {data} = await axios.get(`https://raw.githubusercontent.com/MOHAMMAD-NAYAN-07/Nayan/refs/heads/main/api.json`)
+
         try {
-            const apiUrl = `http://46.247.108.59:6150/photo360?name=${encodeURIComponent(name)}&url=${encodeURIComponent(effectUrl)}`;
+            const apiUrl = `${data.api3}/photo360?name=${encodeURIComponent(name)}&url=${encodeURIComponent(effectUrl)}`;
             const res = await axios.get(apiUrl);
 
             if (handleReply.messageID) {
